@@ -1,0 +1,25 @@
+Test Description: Esperance
+
+  Parameter No.   Parameter Name in HYDRUS-1D                            Input Value by the User Hydrus window name for Jirka
+        1         State                                                  drying                  new parameter
+        2         Porosity                                               0.3748                  new parameter
+        3         Diameter D (cm)                                        6.175                   new parameter
+        4         Sample (material 1) Height (cm)                        3.363                   new parameter
+        5         Ceramic (material 2) Thickness (cm)                    0.384                   new parameter
+        6         Rate of Diffused Air Dair (g/g)                        0.106                   new parameter
+        7         Saturated k (cm/sec)                                   0.007                   new parameter
+        8         Minimum Qr                                             0.121                   Water Flow Parameters, Material 1
+        9         Maximum Qr                                             0.1461                  Water Flow Parameters, Material 1
+       10         Minimum Qs                                             0.3748                  Water Flow Parameters, Material 1
+       11         Maximum Qs                                             0.3748                  Water Flow Parameters, Material 1
+       12         Minimum Alpha (1/cm)                                   0.015                   Water Flow Parameters, Material 1
+       13         Maximum Alpha (1/cm)                                   0.3                     Water Flow Parameters, Material 1
+       14         Minimum n                                              1.0                     Water Flow Parameters, Material 1
+       15         Maximum n                                              3.5                     Water Flow Parameters, Material 1
+       16         Minimum Ks (cm/sec)                                    0.0001                  Water Flow Parameters, Material 1
+       17         Maximum Ks (cm/sec)                                    0.030	                 Water Flow Parameters, Material 1
+       18         HAE Stone (Initial Estimate) Qr                        0.07                    Water Flow Parameters, Material 2
+       19         HAE Stone (Initial Estimate) Qs                        0.34                    Water Flow Parameters, Material 2
+       20         HAE stone (Initial Estimate) alpha                     0.00015                 Water Flow Parameters, Material 2
+       21         HAE Stone (Initial Estimate) n                         7                       Water Flow Parameters, Material 2
+       22         HAE Stone (Initial Estimate) Ks                        5.80E-08                Water Flow Parameters, Material 2
