@@ -6,7 +6,7 @@ Summary of Experimental Setup
  Soil sample info... 
  	 Total Dry Mass (Ms) = 170.0 [gr.] 
  	 Specific Gravity (Gs) = 2.7 [gr./gr.] 
- 	 Height (H) = 3.35 [cm] 
- 	 Dry Density (rho) = 1.7 [gr./cm^3] 
- 	 Porosity (n) = 0.372
- 	 Mass of H2O to Saturate (Mw) = 37.09 [gr.]
+ 	 Height (H) = 3.36 [cm] 
+ 	 Dry Density (rho) = 1.69 [gr./cm^3] 
+ 	 Porosity (n) = 0.374
+ 	 Mass of H2O to Saturate (Mw) = 37.39 [gr.]
