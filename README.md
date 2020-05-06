@@ -18,19 +18,18 @@ The objective of this coding project is to automate as much of the processes as 
 ### Phase 1
 * Accept user input data: specific gravity, sample volume, sample target dry density, and sample degree of fouling.
 * Perform phase relationship calculations using that data to get required dry mass of sample, design height of sample, porosity, and saturated volumetric water content.
-* Return a .txt file with TRIM test specs for experimental setup. Four columns: Parameter No., Parameter Name in Hydrus-1D, Input Value by User, and Hydrus window name for Jirka. Four parameters: Porosity, Diameter(cm), Sample Height (cm), and Saturated Volumetric Water Content.
+* Return a .txt file with TRIM test specs for experimental setup, four parameters: Porosity, Density (gr. cm3), Sample Height (cm), and Saturated Volumetric Water Content.
 
 ### Phase 2
-* Open the out.txt file of recorded two-step outflow data produced by the TRIM software and convert it to a .csv file.
-* Separate saturated flow data from unsaturated flow data in the .csv file.
-* Process the saturated flow data: calculate/store saturated hydraulic conductivity of the sample in centimeters per second (cm/s) following ASTM standard D5084.
-* Process the unsaturated flow data: sample the data (sample 100 points form the typical 2000 points collected), and calculate the adjust flow data compensating for diffused air.
-* Return a .txt file of adjusted unsaturated flow data (minimum of 100 data points) formatted as Hydrus 1D model input. Four columns: Date (mm/dd/yyyy), Time (00:00:00 AM/PM), Step, Mass (g), and Uair (kPa).
+* Open and read the text file of recorded two-step outflow data produced by the TRIM software.
+* Separate saturated flow data from unsaturated flow data in the file.
+* Process the unsaturated flow data: sample the data (sample 150 points form the typical 2000 points collected), and calculate the adjust flow data compensating for evaporation and diffused air.
+* Return a .txt file of adjusted unsaturated flow data (minimum of 100 data points) formatted as Hydrus 1D model input. Five columns: Date (mm/dd/yyyy), Time (00:00:00 AM/PM), Step, Mass (g), and Uair (kPa).
 
 ### Phase 3
-* Open the out.txt file of the inverse modeling software.
+* Open the out.txt file of the inverse modeling software: Hydrus 1D.
 * Extract the important data from the out.txt file: SWCC data, and the route mean squared error (RMSE) and regression (R^2) data.
-* Return a plot of the SWCC and a .csv file of the SWCC data. Two columns: Pressure (kPa), and Volumetric Water Content.
+* Return a plot of the fitted objective function, SWCC, HCF, and a .csv file of the SWCC data. Two columns: Pressure (kPa), and Volumetric Water Content.
 
 ## Sketch of code
 <img src="Flow diagram1.png" alt="Flow diagram1" width="800"/>
